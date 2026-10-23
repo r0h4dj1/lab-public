@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint-cli2/v0.23.2/schema/markdownlint-cli2-config-schema.json",
+  "globs": [
+    "*.md",
+    "brain/**/*.md",
+    "tooling/**/*.md",
+    "projects/*/docs/**/*.md",
+    "!node_modules/**",
+    "!tmp/**",
+    "!.agents/skills/**",
+    "!.claude/skills/**",
+    "!tooling/skills/deep-research/**",
+    "!tooling/skills/doc-coauthoring/**",
+    "!tooling/skills/humanizer/**",
+    "!tooling/skills/last30days/**",
+    "!tooling/skills/skill-creator/**",
+    "!tooling/skills/planning-with-files/**",
+    "!tooling/skills/playwright-cli/**",
+    "!tooling/skills/ponytail/**",
+    "!tooling/skills/ponytail-audit/**",
+    "!tooling/skills/ponytail-debt/**",
+    "!tooling/skills/ponytail-gain/**",
+    "!tooling/skills/ponytail-review/**",
+    "!tooling/skills/taste-skill/**"
+  ],
+  "config": {
+    "default": true,
+    "MD003": false,
+    "MD007": {
+      "indent": 2
+    },
+    "MD013": {
+      "line_length": 80,
+      "code_blocks": false,
+      "headings": false,
+      "tables": false
+    },
+    "MD024": false,
+    "MD029": false,
+    "MD033": false,
+    "MD034": false,
+    "MD049": false,
+    "MD050": false
+  }
+}

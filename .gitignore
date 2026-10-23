@@ -1,0 +1,7 @@
+tmp
+.playwright-mcp
+node_modules/
+
+# Local agent skills links (canonical source is /tooling/skills/)
+.claude/skills/
+.agents/skills/
